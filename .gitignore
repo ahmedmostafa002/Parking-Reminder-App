@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production & Build outputs
+dist/
+build/
+coverage/
+
+# Android Build Outputs & Gradle Caches (Prevents committing 270MB+ binaries)
+.gradle/
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+**/android/capacitor-cordova-android-plugins/build/
+
+# Android Local & Machine-Specific Files
+**/local.properties
+**/captures/
+.navigation/
+
+# IDE Configuration
+.idea/
+.vscode/
+*.iml
+
+# CRITICAL SECURITY: Keystores & Passwords (Never commit production keys)
+*.keystore
+*.jks
+key.properties
+**/key.properties
+secrets.properties
+
+# Android Binaries
+*.apk
+*.aab
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs & Environment Variables
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*
+!.env.example

@@ -1,0 +1,6 @@
+{
+  "name": "SpotSaver",
+  "description": "Auto-saves your parking spot the moment you park with parking meter timer, photo notes, walking directions, and overwrite protection.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

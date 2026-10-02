@@ -1,0 +1,25 @@
+{
+  "name": "SpotSaver — Parking Reminder & Meter Timer",
+  "short_name": "SpotSaver",
+  "description": "Auto-saves your parking spot with 1-tap GPS, meter countdown notifications, garage notes, and overwrite protection.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#FF5A36",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/spotsaver_icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/spotsaver_icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["navigation", "utilities", "travel"]
+}

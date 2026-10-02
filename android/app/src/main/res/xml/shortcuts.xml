@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="quick_park"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_quick_park_short"
+        android:shortcutLongLabel="@string/shortcut_quick_park_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.spotsaver.parkingreminder"
+            android:targetClass="com.spotsaver.parkingreminder.MainActivity"
+            android:data="spotsaver://park" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="find_car"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_find_car_short"
+        android:shortcutLongLabel="@string/shortcut_find_car_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.spotsaver.parkingreminder"
+            android:targetClass="com.spotsaver.parkingreminder.MainActivity"
+            android:data="spotsaver://find" />
+    </shortcut>
+</shortcuts>

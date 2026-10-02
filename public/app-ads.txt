@@ -1,0 +1,3 @@
+# SpotSaver app-ads.txt
+# Replace pub-0000000000000000 with your actual Google AdMob Publisher ID from your AdMob Console
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

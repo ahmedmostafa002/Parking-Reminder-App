@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SpotSaver</string>
+    <string name="title_activity_main">SpotSaver</string>
+    <string name="package_name">com.spotsaver.parkingreminder</string>
+    <string name="custom_url_scheme">com.spotsaver.parkingreminder</string>
+    <string name="shortcut_quick_park_short">Park Here</string>
+    <string name="shortcut_quick_park_long">Quick 1-Tap Park Here</string>
+    <string name="shortcut_find_car_short">Find My Car</string>
+    <string name="shortcut_find_car_long">Find Parked Car &amp; Directions</string>
+</resources>
